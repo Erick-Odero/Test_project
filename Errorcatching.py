@@ -1,5 +1,5 @@
 try:
-    #answer = 10/0
+    answer = 10/0
     number = int(input("Enter a number: "))
     print(answer)
 except ZeroDivisionError as err:
